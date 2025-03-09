@@ -155,13 +155,11 @@ __*Материалы этого проекта могут служить хор
 __Берлин, 16\.02\.2025__
 '''
 
-"""
-with open("WagnerFoto.jpg ", "rb") as img_file:    
-        img = "data:image/png;base64," + base64.b64encode(img_file.read()).decode()
+#with open("WagnerFoto.jpg ", "rb") as img_file:    
+#        img = "data:image/png;base64," + base64.b64encode(img_file.read()).decode()
 
-with open("ASFEN_LOGO3.jpg", "rb") as img_file:
-        img2 = "data:image/png;base64," + base64.b64encode(img_file.read()).decode()        
-"""
+#with open("ASFEN_LOGO3.jpg", "rb") as img_file:
+#        img2 = "data:image/png;base64," + base64.b64encode(img_file.read()).decode()        
 
 def MdFileToStreamlit(MdFile):
     with open(MdFile, 'r', encoding='utf-8') as f:
@@ -227,7 +225,7 @@ def welcome():
                 <div class="spin-container">
                     <div class="shape">
                         <div class="bd">
-                            <img src="{img}" alt="AW" width="150" height="200" style="display: block; margin: auto">
+                            #<img src="{img}" alt="AW" width="150" height="200" style="display: block; margin: auto">
                         </div>
                     </div>
                 </div>
@@ -259,7 +257,7 @@ with col2:
                     <div class="spin-container">
                         <div class="shape">
                             <div class="bd">
-                                <img src="{img2}" alt="AW" width="600" height="400" style="display: block; margin: auto">
+                                #<img src="{img2}" alt="AW" width="600" height="400" style="display: block; margin: auto">
                             </div>
                         </div>
                     </div>
