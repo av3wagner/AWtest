@@ -154,9 +154,7 @@ __*Материалы этого проекта могут служить хор
 
 __Берлин, 16\.02\.2025__
 '''
-
 # enter 1  
-
 def MdFileToStreamlit(MdFile):
     with open(MdFile, 'r', encoding='utf-8') as f:
         readme_line = f.readlines()
