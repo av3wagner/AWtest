@@ -1,7 +1,6 @@
 # Core
 streamlit
 toml
-markdown
 matplotlib
 pandas 
 numpy 
