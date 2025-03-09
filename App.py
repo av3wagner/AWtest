@@ -155,11 +155,7 @@ __*Материалы этого проекта могут служить хор
 __Берлин, 16\.02\.2025__
 '''
 
-#with open("WagnerFoto.jpg ", "rb") as img_file:    
-#        img = "data:image/png;base64," + base64.b64encode(img_file.read()).decode()
-
-#with open("ASFEN_LOGO3.jpg", "rb") as img_file:
-#        img2 = "data:image/png;base64," + base64.b64encode(img_file.read()).decode()        
+# enter 1  
 
 def MdFileToStreamlit(MdFile):
     with open(MdFile, 'r', encoding='utf-8') as f:
