@@ -1,1 +1,18 @@
-a
+# Core
+streamlit
+toml
+markdown
+matplotlib
+pandas 
+numpy 
+setuptools 
+gunicorn
+streamlit.components.v1
+base64
+sys
+inspect
+os
+pathlib
+glob
+matplotlib.pyplot 
+seaborn 
